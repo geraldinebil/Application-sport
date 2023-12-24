@@ -1,0 +1,61 @@
+
+
+#name, #e-mail, #password{
+    border-color: #0779FF;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 4px;
+    margin-left: 60px;
+    font-weight: bolder;
+    
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr; /* Une colonne pour les labels et les inputs */
+    grid-template-rows: repeat(12, auto); /* Douze lignes pour les éléments du formulaire */
+    gap: 10px; /* Espacement entre les éléments */
+    text-align: left; /* Aligner le contenu de la grille à gauche */
+}
+
+label {
+    grid-column: 1;
+    grid-row: auto;
+    margin-left: 62px; /* Espacement entre les labels et les inputs */
+}
+
+input {
+    grid-column: 1; /* Placer l'input dans la première colonne de la grille */
+    grid-row: auto;
+    width: calc(100% - 20px); /* Utiliser calc() pour prendre en compte la marge gauche et droite des inputs */
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+input::placeholder{
+    color: #000;
+}
+
+img{
+    width: 190px;
+    margin-left: 110px;
+}
+
+.inscrire {
+    grid-column: 1; /* Placer le bouton dans la première colonne de la grille */
+    grid-row: 12; /* Placer le bouton dans la douzième ligne de la grille */
+    width: 172px;
+    height: 50px;
+    background-color: #0779FF;
+    border-radius: 10px;
+    border-color: #0779FF;
+    border-width: 2px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-left: 130px;
+    margin-top: 20px;
+}

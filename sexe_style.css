@@ -1,0 +1,28 @@
+h1{
+   font-size: 32px; 
+   font-family: inter;
+   text-align: center;
+   margin-top: 130px;
+   
+}
+
+img{
+    width: 200px;
+}
+
+img:hover {
+    transform: scale(1.2); 
+}
+
+.suivant{
+    width: 135px;
+    height: 46px;
+    font-size: 24px;
+    font-weight: bolder;
+    background-color: #0779FF;
+    border-color: #0779FF;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 140px;
+    color: white;
+}

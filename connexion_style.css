@@ -1,0 +1,83 @@
+#name{
+    border-color: #0779FF;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 4px;
+    margin-left: 60px;
+    color: #000000;
+    font-weight: bolder;
+    
+}
+#password{
+    border-color: #0779FF;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 4px;
+    margin-left: 60px;
+    color: #000;
+    font-weight: bolder;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat(12, auto); 
+    gap: 10px; 
+    text-align: left; 
+}
+
+.pseudo {
+    grid-column: 1;
+    grid-row: auto;
+    margin-left: 62px; 
+    margin-top: 20px;
+    
+    
+}
+
+.password {
+    grid-column: 1;
+    grid-row: auto;
+    margin-left: 62px; 
+    
+}
+
+input {
+    grid-column: 1; 
+    grid-row: auto;
+    width: calc(100% - 20px); 
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+
+input::placeholder{
+    color: #000;
+}
+
+img{
+    width: 190px;
+    margin-left: 110px;
+}
+
+.connecter {
+    grid-column: 1;
+    grid-row: 6; 
+    width: 172px;
+    height: 50px;
+    background-color: #0779FF;
+    border-radius: 10px;
+    border-color: #0779FF;
+    border-width: 2px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-left: 130px;
+
+}
+
