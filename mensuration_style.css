@@ -10,23 +10,23 @@
     margin-top: 80px;
 } */
 
-.image-1{
-background: url(images/pieds-femme-debout-echelle-poids-fond-bois_1150-5134.jpg);
-height: 180px;
-width: 314px;
-background-size: cover;
-text-align: center;
-margin-left: 50px;
-margin-top: 80px;
-font-family: inter;
-font-weight: bold;
-opacity: 0.8;
-font-size: 18px;
+.image-1 {
+    background: url(images/pieds-femme-debout-echelle-poids-fond-bois_1150-5134.jpg);
+    height: 180px;
+    width: 314px;
+    background-size: cover;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 80px;
+    font-family: inter;
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: 18px;
 
 }
 
 
-.image-2{
+.image-2 {
     background: url(images/vue-du-ruban-mesurer-centimetres-comme-unites-longueur_23-2150316773.jpg);
     height: 180px;
     width: 314px;
@@ -38,23 +38,34 @@ font-size: 18px;
     font-weight: bold;
     opacity: 0.8;
     font-size: 18px;
-    }
+}
 
-    .image-3{
-        background: url(images/personnes-composition-lunettes_23-2150188077.jpg);
-        height: 180px;
-        width: 314px;
-        background-size: cover;
-        text-align: center;
-        margin-left: 50px;
-        margin-top: 60px;
-        font-family: inter;
-        font-weight: bold;
-        opacity: 0.8;
-        font-size: 18px;
-        }
+#chiffre{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    font-size: 25px;
+    font-family: inter;
+    font-weight: bold;
+}
 
-.suivant{
+.image-3 {
+    background: url(images/personnes-composition-lunettes_23-2150188077.jpg);
+    height: 180px;
+    width: 314px;
+    background-size: cover;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 60px;
+    font-family: inter;
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+.suivant {
     width: 135px;
     height: 46px;
     font-size: 24px;
