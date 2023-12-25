@@ -1,0 +1,76 @@
+h1{
+    font-family: inter;
+    text-align: center;
+    color: white;
+    margin-top: -20px;
+    
+    
+}
+
+p{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.logo-1{
+    width: 100px;
+    margin-left: 240px;
+}
+
+.logo-2{
+    width: 100px;
+    margin-left: -50px;  
+}
+
+header{
+    background: url(images/couple-effectuant-yoga-ensemble-plage_107420-10067.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 200px;
+
+}
+
+h2{
+    font-family: inter;
+    font-weight: bolder;
+    font-size: 24px;
+}
+ .calendrier{
+    width: 120px;
+    margin-left: 300px;
+    margin-top: -90px;
+ }
+
+ h3{
+    font-family: inter;
+    font-size: 20px;
+    margin-top: -20px;
+ }
+
+ h4{
+    font-size: 15px;
+    font-family: inter;
+    font-weight: bolder;
+ }
+
+ .suivant{
+    width: 135px;
+    height: 46px;
+    font-size: 24px;
+    font-weight: bolder;
+    background-color: #BCF1EF;
+    border-color: #BCF1EF;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 140px;
+    color: rgb(0, 0, 0);
+}
+
+footer{
+    text-align: center;
+    margin-top: 200px;
+    background-color: #BCF1EF;
+    height: 90px;
+    
+}

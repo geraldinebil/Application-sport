@@ -27,8 +27,9 @@ p{
 header{
     background: url(images/homme-s-entrainant-halterophilie_23-2149307951.jpg);
    background-size: cover;
-   background-size: 433px;
    background-repeat: no-repeat;
+   height: 200px;
+
 }
 
 h2{
@@ -69,7 +70,7 @@ h2{
 
 footer{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 190px;
     background-color: #50AB55;
     height: 100px;
     

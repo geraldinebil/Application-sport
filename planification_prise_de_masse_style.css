@@ -24,9 +24,9 @@ p{
 }
 
 header{
-    background: url(images/homme-s-entrainant-halterophilie_23-2149307951.jpg);
+    background: url(images/formation-masculine-angle-eleve-halterophilie_23-2148603846.jpg);
    background-size: cover;
-   background-size: 433px;
+   height: 200px;
    background-repeat: no-repeat;
 }
 
@@ -68,8 +68,8 @@ h2{
 
 footer{
     text-align: center;
-    margin-top: 190px;
+    margin-top: 200px;
     background-color: #F79303;
-    height: 100px;
+    height: 90px;
     
 }
