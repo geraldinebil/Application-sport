@@ -1,0 +1,47 @@
+textarea {
+    font-size: 16px;
+    border: 3px solid #0779FF;
+    border-radius: 10px;
+    padding: 15px;
+    width: 340px;
+    margin-left: 20px;
+    font-family: inter;
+    font-weight: bolder;
+    height: 80px;
+    margin-top: 150px;
+  }
+
+button{
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+
+.envoyer {
+    grid-column: 1;
+    grid-row: 6; 
+    width: 172px;
+    height: 50px;
+    background-color: #0779FF;
+    border-radius: 10px;
+    border-color: #0779FF;
+    border-width: 2px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-left: 120px;
+    margin-top: 30px;
+
+}
+
+.logo-1{
+    width: 100px;
+    margin-left: 240px;
+}
+
+.logo-2{
+    width: 100px;
+    margin-left: -50px;  
+}
+
