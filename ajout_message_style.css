@@ -7,8 +7,8 @@ textarea {
     margin-left: 20px;
     font-family: inter;
     font-weight: bolder;
-    height: 80px;
-    margin-top: 150px;
+    height: 180px;
+    margin-top: 50px;
   }
 
 button{
@@ -43,5 +43,11 @@ button{
 .logo-2{
     width: 100px;
     margin-left: -50px;  
+}
+
+p{
+    font-family: inter;
+    font-size: 18px;
+    font-weight: bolder;
 }
 
