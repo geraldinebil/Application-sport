@@ -1,0 +1,16 @@
+section, h1{
+    font-family: inter;
+    font-size: 32px;
+
+}
+
+section, img{
+    width: 120px;
+
+}
+
+section, h1{
+    display: flex;
+    margin-left: 15px;
+}
+
