@@ -1,0 +1,25 @@
+body {
+    margin: 20px;
+
+  }
+
+  .logos-container {
+    display: flex;
+    margin-left: 180px;
+  }
+  
+  .logo {
+    margin: -20px; 
+  }
+
+
+h1 {
+   margin-top: 20px;
+   font-size: 32px;
+   font-family: inter;
+}
+
+img {
+    margin-top: 15px;
+    width: 120px;
+}

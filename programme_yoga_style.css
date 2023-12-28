@@ -1,8 +1,16 @@
-h1{
-    font-size: 24px;
-    font-family: inter;
-    font-weight: bolder;
-}
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logos-container {
+    display: flex;
+    margin-left: 240px;
+  }
+  
+  .logo {
+    margin: -20px; 
+  }
 
 p{
     font-size: 16px;
@@ -12,7 +20,7 @@ p{
 }
 
 img{
-    width: 314px;
-    height: 154px;
-    margin-left: 50px;
+    width: 100px;
+    margin-left: 160px;
+
 }

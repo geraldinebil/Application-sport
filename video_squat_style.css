@@ -1,3 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logos-container {
+    display: flex;
+    margin-left: 240px;
+  }
+  
+  .logo {
+    margin: -20px; 
+  }
+
 h1{
     font-size: 24px;
     font-family: inter;
@@ -17,4 +31,10 @@ iframe{
     margin-left: 50px;
     border-radius: 10px;
 }
+
+img{
+    width: 100px;
+    margin-left: 160px;
+}
+
 

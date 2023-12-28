@@ -1,75 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logos-container {
+  display: flex;
+  margin-left: 240px;
+
+
+
+}
+
+.logo {
+  margin: -20px; 
+}
+
+
 h1{
-    font-family: inter;
-    text-align: center;
-    color: white;
-    margin-top: -20px;
-    
-    
+  font-family: inter;
+  text-align: center;
+  color: white;
+  margin-top: -20px;
+  margin-top: 10px; 
 }
 
 p{
-    font-family: inter;
-    font-size: 16px;
-    font-weight: bolder;
-}
-
-.logo-1{
-    width: 100px;
-    margin-left: 240px;
-}
-
-.logo-2{
-    width: 100px;
-    margin-left: -50px;  
+  font-family: inter;
+  font-size: 16px;
+  font-weight: bolder;
+  margin: 15px;
 }
 
 header{
-    background: url(images/formation-masculine-angle-eleve-halterophilie_23-2148603846.jpg);
-   background-size: cover;
-   height: 200px;
-   background-repeat: no-repeat;
+  background: url(images/formation-masculine-angle-eleve-halterophilie_23-2148603846.jpg);
+ background-size: cover;
+ height: 200px;
+ background-repeat: no-repeat;
 }
 
 h2{
-    font-family: inter;
-    font-weight: bolder;
-    font-size: 24px;
+  font-family: inter;
+  font-weight: bolder;
+  font-size: 24px;
+  margin-left: 15px;
 }
- .calendrier{
-    width: 120px;
-    margin-left: 300px;
-    margin-top: -90px;
- }
-
- h3{
-    font-family: inter;
-    font-size: 20px;
-    margin-top: -20px;
- }
-
- h4{
-    font-size: 15px;
-    font-family: inter;
-    font-weight: bolder;
- }
-
- .suivant{
-    width: 135px;
-    height: 46px;
-    font-size: 24px;
-    font-weight: bolder;
-    background-color: #F79303;
-    border-color: #F79303;
-    border-radius: 10px;
-    margin-top: 30px;
-    margin-left: 140px;
-    color: white;
+.calendrier{
+  width: 120px;
+  margin-left: 300px;
+  margin-top: -90px;
 }
 
-footer{
-    text-align: center;
-    margin-top: 200px;
-    background-color: #F79303;
-    height: 90px;
-    
+h3{
+  font-family: inter;
+  font-size: 20px;
+  margin-top: -20px;
+  margin-left: 15px;
+}
+
+h4{
+  font-size: 15px;
+  font-family: inter;
+  font-weight: bolder;
+}
+
+.suivant{
+  width: 135px;
+  height: 46px;
+  font-size: 24px;
+  font-weight: bolder;
+  background-color: #F79303;
+  border-color: #F79303;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 140px;
+  color: white;
+}
+
+
+img{
+  width: 100px;
+  margin-left: 160px;
 }

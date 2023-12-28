@@ -1,8 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logos-container {
+    display: flex;
+    margin-left: 240px;
+  }
+  
+  .logo {
+    margin: -20px; 
+  }
+
+
 h1{
     font-family: inter;
     text-align: center;
     color: white;
     margin-top: -20px;
+    font-weight: bolder;
+    margin-top: 10px;
     
     
 }
@@ -11,16 +28,7 @@ p{
     font-family: inter;
     font-size: 16px;
     font-weight: bolder;
-}
-
-.logo-1{
-    width: 100px;
-    margin-left: 240px;
-}
-
-.logo-2{
-    width: 100px;
-    margin-left: -50px;  
+    margin: 15px;
 }
 
 header{
@@ -35,6 +43,7 @@ h2{
     font-family: inter;
     font-weight: bolder;
     font-size: 24px;
+    margin-left: 15px;
 }
  .calendrier{
     width: 120px;
@@ -46,12 +55,14 @@ h2{
     font-family: inter;
     font-size: 20px;
     margin-top: -20px;
+    margin-left: 15px;
  }
 
  h4{
     font-size: 15px;
     font-family: inter;
     font-weight: bolder;
+
  }
 
  .suivant{
@@ -67,10 +78,7 @@ h2{
     color: rgb(0, 0, 0);
 }
 
-footer{
-    text-align: center;
-    margin-top: 200px;
-    background-color: #BCF1EF;
-    height: 90px;
-    
+img{
+    width: 100px;
+    margin-left: 160px;
 }

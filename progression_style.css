@@ -1,3 +1,8 @@
+.logos-container {
+    display: flex;
+    margin-left: 110px;
+  }
+
 h1 {
     font-size: 32px;
     font-family: inter;
@@ -9,7 +14,7 @@ h1 {
 
 .logo-1 {
     width: 80px;
-    margin-left: 280px;
+    margin-left: -80px;
     margin-top: -130px;
 }
 
@@ -18,8 +23,13 @@ h1 {
     margin-top: -130px;
 }
 
+.logo-3 {
+    width: 80px;
+    margin-top: -130px;
+}
+
 .logo{
- width: 50px;
+ width: 100px;
  
 }
 
@@ -28,6 +38,7 @@ h1 {
     border: 5px #0779FF solid;
     border-width: 4px;
     border-radius: 10px;
+    width: 400px;
     
 }
 
@@ -37,6 +48,7 @@ h1 {
     border-width: 4px;
     border-radius: 10px;
     height: 150px;
+    width: 400px;
     
 }
 

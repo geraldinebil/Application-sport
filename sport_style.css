@@ -1,12 +1,19 @@
-.logo-1{
-    width: 100px;
-    margin-left: 240px;
-}
+body {
+    margin: 0;
+    padding: 0;
+  }
 
-.logo-2{
-    width: 100px;
-    margin-left: -50px;  
-}
+  .logos-container {
+    display: flex;
+    margin-left: 240px;
+  
+
+  
+  }
+  
+  .logo {
+    margin: -20px; 
+  }
 
 p{
     font-family: inter;

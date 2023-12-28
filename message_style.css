@@ -1,3 +1,23 @@
+.logos-container {
+  display: flex;
+  margin-left: 110px;
+}
+
+.logo-1 {
+  width: 80px;
+  margin-left: -80px;
+}
+
+.logo-2 {
+  width: 80px;
+
+}
+
+.logo-3 {
+  width: 80px;
+  margin-top: -130px;
+}
+
 p {
     font-size: 16px;
     border: 3px solid #0779FF;
@@ -8,6 +28,7 @@ p {
     font-family: inter;
     font-weight: bolder;
     height: 80px;
+    margin-top: 20px;
   }
 
   .rep{

@@ -1,27 +1,33 @@
-h1{
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logos-container {
+    display: flex;
+    margin-left: 240px;
+  }
+  
+  .logo {
+    margin: -20px; 
+  }
+
+
+  h1{
     font-family: inter;
     text-align: center;
     color: rgb(0, 0, 0);
     margin-top: -20px;
-    
-    
+    margin-top: 10px; 
 }
 
 p{
     font-family: inter;
     font-size: 16px;
     font-weight: bolder;
+    margin: 15px;
 }
 
-.logo-1{
-    width: 100px;
-    margin-left: 240px;
-}
-
-.logo-2{
-    width: 100px;
-    margin-left: -50px;  
-}
 
 header{
     background: url(images/240_F_102212076_CA0OdtNvhrBTHAEOkm8D1a0oDm5Z9SQB.jpg);
@@ -66,10 +72,9 @@ h2{
     color: rgb(0, 0, 0);
 }
 
-footer{
-    text-align: center;
-    margin-top: 210px;
-    background-color: #FFC8D5;
-    height: 90px;
-    
+
+
+img{
+    width: 100px;
+    margin-left: 160px;
 }
