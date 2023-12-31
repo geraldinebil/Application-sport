@@ -1,5 +1,5 @@
 #name{
-    border-color: #0779FF;
+    border-color: #F70303;
     width: 300px;
     height: 50px;
     font-size: 20px;
@@ -12,7 +12,7 @@
 
 }
 #password{
-    border-color: #0779FF;
+    border-color: #F70303;
     width: 300px;
     height: 50px;
     font-size: 20px;
@@ -33,20 +33,20 @@ form {
     text-align: left; 
 }
 
+
 .pseudo {
     grid-column: 1;
     grid-row: auto;
     margin-left: 62px; 
     margin-top: 20px;
-    
-    
+    font-family: inter;
 }
 
 .password {
     grid-column: 1;
     grid-row: auto;
     margin-left: 62px; 
-    
+    font-family: inter;
 }
 
 input {
@@ -77,14 +77,15 @@ img{
     grid-row: 6; 
     width: 172px;
     height: 50px;
-    background-color: #0779FF;
+    background-color: #F70303;
     border-radius: 10px;
-    border-color: #0779FF;
+    border-color: #F70303;
     border-width: 2px;
     text-align: center;
     color: white;
     font-size: 24px;
     margin-left: 130px;
+    font-weight: bolder;
 
 }
 

@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logos-container {
+    display: flex;
+    margin-left: 240px;
+  
+
+  
+  }
+  
+  .logo {
+    margin: -20px; 
+  }
+
+p{
+    font-family: inter;
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+img{
+    width: 100px;
+    margin-left: 160px;
+}
+

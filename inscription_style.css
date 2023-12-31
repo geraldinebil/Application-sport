@@ -1,7 +1,8 @@
-
-
-#name, #e-mail, #password, #number{
-    border-color: #0779FF;
+#name,
+#e-mail,
+#password,
+#number {
+    border-color: #F70303;
     width: 300px;
     height: 50px;
     font-size: 18px;
@@ -14,46 +15,46 @@
 
 form {
     display: grid;
-    grid-template-columns: 1fr; /* Une colonne pour les labels et les inputs */
-    grid-template-rows: repeat(12, auto); /* Douze lignes pour les éléments du formulaire */
-    gap: 10px; /* Espacement entre les éléments */
-    text-align: left; /* Aligner le contenu de la grille à gauche */
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, auto);
+    gap: 10px;
+    text-align: left;
 }
 
 label {
     grid-column: 1;
     grid-row: auto;
-    margin-left: 62px; 
+    margin-left: 62px;
     font-family: inter;
 }
 
 input {
-    grid-column: 1; /* Placer l'input dans la première colonne de la grille */
+    grid-column: 1;
     grid-row: auto;
-    width: calc(100% - 20px); /* Utiliser calc() pour prendre en compte la marge gauche et droite des inputs */
+    width: calc(100% - 20px);
     padding: 8px;
     margin-bottom: 15px;
     box-sizing: border-box;
     font-family: inter;
 }
 
-input::placeholder{
+input::placeholder {
     color: #000;
 }
 
-img{
-    width: 190px;
-    margin-left: 110px;
+img {
+    width: 250px;
+    margin-left: 85px;
 }
 
 .inscrire {
-    grid-column: 1; /* Placer le bouton dans la première colonne de la grille */
-    grid-row: 12; /* Placer le bouton dans la douzième ligne de la grille */
+    grid-column: 1;
+    grid-row: 12;
     width: 172px;
     height: 50px;
-    background-color: #0779FF;
+    background-color: #F70303;
     border-radius: 10px;
-    border-color: #0779FF;
+    border-color: #F70303;
     border-width: 2px;
     text-align: center;
     color: white;
@@ -62,6 +63,6 @@ img{
     margin-top: 20px;
 }
 
-#checkbox{
+#checkbox {
     margin-left: -130px;
 }

@@ -1,8 +1,9 @@
 body{
+    background: -110px;
     background-image: url(images/sportspeople-dark-studio-after-training_23-2147752888.jpg);
+    margin-right: -120px;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;  
 }
 
 .inscription{
@@ -10,35 +11,25 @@ body{
     height: 46px;
     font-size: 32px;
     font-weight: bolder;
-    background-color: #03F756;
-    border-color: #03F756;
+    background-color: #F70303;
+    border-color: #F70303;
     border-radius: 10px;
-    margin-top: 300px;
+    margin-top: 500px;
     margin-left: 100px;
     color: white;
 }
-
-
 
 .connexion{
     width: 254px;
     height: 46px;
     font-size: 32px;
     font-weight: bolder;
-    background-color: #0779FF;
-    border-color: #0779FF;
+    background-color: #CCFF3B;
+    border-color: #CCFF3B;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 100px; 
-    color: white;
-}
-
-h1{
-    font-family: knewave;
-    color: #0779FF;
-    text-align: center;
-    margin-top: 80px;
-    font-size: 64px;
+    color: rgb(0, 0, 0);
 }
 
 .logo{
@@ -48,7 +39,17 @@ h1{
 }
 
 img{
-    width: 200px;
-    margin-left: 110px;
+    width: 290px;
+    margin-left: 80px;
+    position: relative;
+    animation: slideLeftRight 3s linear infinite;
 }
 
+@keyframes slideLeftRight {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
