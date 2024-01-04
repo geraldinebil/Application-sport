@@ -89,3 +89,10 @@ img{
 
 }
 
+p{
+    font-family: inter;
+    margin-left: 70px;
+    margin-top: -20px;
+    font-style: italic;
+    text-decoration: underline;
+}

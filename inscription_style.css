@@ -66,3 +66,11 @@ img {
 #checkbox {
     margin-left: -130px;
 }
+
+p{
+    font-family: inter;
+    margin-left: 80px;
+    margin-top: -20px;
+    text-decoration: underline;
+    color: #000;
+}

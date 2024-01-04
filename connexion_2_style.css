@@ -1,0 +1,98 @@
+#name{
+    border-color: #F70303;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 4px;
+    margin-left: 60px;
+    color: #000000;
+    font-weight: bolder;
+    font-family: inter;
+
+}
+#password{
+    border-color: #F70303;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 4px;
+    margin-left: 60px;
+    color: #000;
+    font-weight: bolder;
+    
+
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat(12, auto); 
+    gap: 10px; 
+    text-align: left; 
+}
+
+
+.pseudo {
+    grid-column: 1;
+    grid-row: auto;
+    margin-left: 62px; 
+    margin-top: 20px;
+    font-family: inter;
+}
+
+.password {
+    grid-column: 1;
+    grid-row: auto;
+    margin-left: 62px; 
+    font-family: inter;
+}
+
+input {
+    grid-column: 1; 
+    grid-row: auto;
+    width: calc(100% - 20px); 
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    
+
+}
+
+
+input::placeholder{
+    color: #000;
+    font-family: inter;
+
+}
+
+img{
+    width: 190px;
+    margin-left: 110px;
+}
+
+.connecter {
+    grid-column: 1;
+    grid-row: 6; 
+    width: 172px;
+    height: 50px;
+    background-color: #F70303;
+    border-radius: 10px;
+    border-color: #F70303;
+    border-width: 2px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-left: 130px;
+    font-weight: bolder;
+
+}
+
+p{
+    font-family: inter;
+    margin-left: 70px;
+    margin-top: -20px;
+    font-style: italic;
+    text-decoration: underline;
+}
